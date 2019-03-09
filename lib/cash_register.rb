@@ -11,7 +11,7 @@ class CashRegister
     quantity.times.do
     items << title
   end
-  self.last_transaction = price * quantty
+  self.last_transaction = price * quantity
  
     def apply_discount
       if discount != 0
